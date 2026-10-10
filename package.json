@@ -1,0 +1,13 @@
+{
+  "name": "param-system",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "gen-config": "node scripts/generate-config.js",
+    "seed": "node scripts/seed-metadata.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}
